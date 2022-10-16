@@ -3,7 +3,6 @@ import './style.css'
 
 export default function Stepper({totalStep,currentStep}) {
   let arr=new Array(parseInt(totalStep)).fill(null).map((_, i) => i)
-  console.log(currentStep)
   return ( 
         <div className="mdl-stepper-horizontal-alternative">
       {
