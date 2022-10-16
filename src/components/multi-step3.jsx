@@ -29,14 +29,14 @@ const Community = (props) => {
                     <div className="field-container">
                         <div className="profile-card">
                             <div className="myself-card" id="myself" onClick={handleProfileCard}>
-                                <img src={Oneuser} className="self-img"/>
+                                <img  alt="logo" src={Oneuser} className="self-img"/>
                                 <div>
                                     <p className="myself">For myself</p>
                                     <p>Writer better. Think more clearly. Stay organized.</p>
                                 </div>
                             </div>
                             <div className="myself-card" id="team"  onClick={handleTeamCard}>
-                                <img src={team} className="self-img"/>
+                                <img alt="logo" src={team} className="self-img"/>
                                 <div>
                                     <p className="myself">With my team</p>
                                     <p>wikis, docs, tasks & projects, all in one place.</p>
