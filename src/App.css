@@ -1,0 +1,86 @@
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.field-container{
+  width: 350px;
+  margin: 0 auto;
+}
+
+.welcom-txt{
+  font-weight: 600;
+  font-size:28px;
+}
+.main-logo, .self-img{
+  height: 25px;
+  width: 25px;
+  object-fit: cover;
+}
+
+.cmp-heading{
+  font-weight: 600;
+  font-size:20px;
+  margin-left: 5px;
+}
+
+.multi-step,  .multiple-step4{
+  margin-top:17vh;
+}
+
+.multi-step .row, .multi-step3 .row, .multiple-step4 .row{
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.optional {
+  margin-left:5px;
+  color:#cccccc;
+}
+
+.web-link{
+  color:#858585;
+}
+
+.myself-card{
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  height: 195px;
+  width: 167px;
+  padding: 15px;
+}
+
+.myself{
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.profile-card{
+  display:flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.workspace-btn, .btn:hover, .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+  background-color:#664de5;
+  border: none;
+}
+
+.active-card {
+  border: 1px solid #664de5;
+}
+.tickmark-img{
+  height: 50px;
+  width: 50px;
+  object-fit:cover;
+}
+
+.tickmark-div{
+  text-align: center;
+  margin-top: 10vh;
+}
+@media (min-width: 1440px) { 
+  .container{
+    max-width: 1140px;
+  }
+ }
