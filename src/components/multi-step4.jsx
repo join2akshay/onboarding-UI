@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../src/App';
-import Header from './Header/Header';
 import Tickmark from  '../../src/asssets/tick-mark.png';
 import TopBlock from './TopBlock';
 import Button from './Button';

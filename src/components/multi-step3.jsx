@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../src/App';
-import Header from './Header/Header';
 import Oneuser from  '../../src/asssets/one-user.png';
 import team from  '../../src/asssets/team.png';
 import TopBlock from './TopBlock';

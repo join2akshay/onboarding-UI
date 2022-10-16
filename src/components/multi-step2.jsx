@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../src/App';
 import Button from './Button';
-import Header from './Header/Header';
 import TextBox from './TextBox';
 import TopBlock from './TopBlock';
 
